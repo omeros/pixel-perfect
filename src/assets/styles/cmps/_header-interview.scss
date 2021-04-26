@@ -1,0 +1,75 @@
+.header-container{
+    display: flex;
+    flex-direction: row;
+    // background-color: #1B2330;
+  
+    // fontFamily	:    Livvic-Semi;
+   
+}
+.outer-nav{
+    display: flex;
+    justify-content: space-between;
+     padding:  87px 0px 0px 0px;
+     width: 1110px;
+}
+
+.my-nav{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    height: 48px;
+}
+.nav-bar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    // padding:  87px 87px 0px 0px;
+
+
+    
+}
+
+.myteam{
+    color: $clr1;
+    padding: 0px 0px 0px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+    width: 160px;
+    height: 40px;
+    
+    
+  
+}
+.team{
+    color: $clr1;
+   
+}
+
+
+.home2{
+    width: 46px;
+    height: 15px;
+    color: $clr1;
+    padding:  0px 0px 0px 80px;
+}
+.about{
+    width: 46px;
+    height: 15px;
+    color: $clr1;
+    padding:  0px 0px 0px 88px;
+}
+.contac-us-container{
+  
+}
+.contact-us{
+    text-align: center;
+    color: $clr3;
+    background-color: $clr1;
+    border-radius: 30px;
+    width: 153px;
+    height: 49px;
+    font-size: large;
+}

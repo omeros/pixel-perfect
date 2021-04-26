@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+}
+
+::selection {
+    background-color: $clr2;
+    // color: $clr6;
+}
+
+html {
+    font-family: montserrat;
+    line-height: 1.6;
+    // color: $clr2;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    font-family: Arial,sans-serif;
+    font-size: rem(18px);
+    margin: 0;
+    background-color:#014E56;
+    width: 1440px;
+    height: 2331px;
+    // background-color: #1B2330;
+
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: caveat;
+    margin: 0 0 0.6em;
+    line-height: 1;
+}
+
+
+section, main, footer {
+    padding: 5px;
+}
+
+// img {
+//     width: 100%;
+// }
+
+p {
+    margin: 0 0 1em;
+    max-width: 40ch;
+}
+
+a {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+

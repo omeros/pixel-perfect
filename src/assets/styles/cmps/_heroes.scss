@@ -1,0 +1,46 @@
+
+
+.hero{
+    padding-top:131px ;
+    width: 1110px;
+    padding-left: 5px;
+    height: 564px;
+}
+.svg1{
+    position: absolute;
+    left: -130px;
+}
+.my-body{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.firstimg{
+    display: inline;
+}
+
+.find-talent{
+    width: 472px;
+    height: 176px;
+    font-size: 60px;
+    color: $clr1;
+    text-align: left;
+    .talent{
+        color: $clr2;
+    }
+}
+
+.txt1{
+    padding-top: 69px;
+    color: $clr1;
+    width: 442px;
+    height: 99px;
+}
+.svg2{
+    position: absolute;
+    bottom: 0px;
+    right: 365px;
+    // position: flex;
+    // flex-direction: row;
+    // justify-content: flex-end;
+}
